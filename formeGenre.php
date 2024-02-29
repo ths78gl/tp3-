@@ -21,7 +21,7 @@ $leGenre=$req->fetch();
   <input type="hidden" id="num" name="num" value="<?php if($action == "Modifier") {echo $leGenre->num ;}?>">
   <div class="row">
     <div class="col"> <a href=listeGenres.php class='btn btn-warning btn-block'> Revenir à la liste</a></div>
-    <div class="col"><button type="submit" class="btn btn-primary btn-block"> Ajouter <?php echo $action ?> </button></div>   
+    <div class="col"><button type="submit" class="btn btn-primary btn-block"> ajouter  <?php echo $action ?> </button></div>   
   </div>
 </form>
 

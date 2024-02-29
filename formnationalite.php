@@ -44,7 +44,7 @@ $lescontinents=$reqcontinent->fetchAll();
         <input type="hidden" id="num" name="num" value="<?php if ($action == "Modifier") { echo $laNationalite->num; } ?>">
         <div class="row">
             <div class="col"> <a href="listeNationalites.php" class='btn btn-warning btn-block'>Revenir à la liste</a> </div>
-            <div class="col"><button type="submit" class="btn btn-success btn-block">  <?php echo $action ?> </button></div> 
+            <div class="col"><button type="submit" class="btn btn-success btn-block"> ajouter <?php echo $action ?> </button></div> 
         </div>
     </form>
 </div>
